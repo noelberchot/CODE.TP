@@ -1,0 +1,119 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+
+
+
+header{
+    background-color: black;
+    padding: 15PX 0;
+    position: sticky;
+    top: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+nav img{
+    width: 70px;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    margin: 0 16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+main{
+    background-color: black;
+}
+div.hero-section img{
+    width: 99vw;
+}
+
+
+div.PHOTOCARDS h1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 1000;
+}
+
+
+section {
+    padding-top: 20px;
+}
+
+
+section div ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 2%;
+}
+
+
+footer{
+    background-color: #1e1e1e;
+    padding: 15PX 0;
+   
+ }
+
+
+ footer ul{
+  display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+ }
+
+
+ footer ul li{
+    list-style: none;
+ 
+
+
+ }
+
+
+ footer ul li img{
+    width: 30px;
+ }
+
+
+ footer ul li p {
+     color: whitesmoke;
+    font-family: "Archivo Black", sans-serif;
+ }
+ 

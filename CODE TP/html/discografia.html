@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISCOGRAFIA</title>
+    <link rel="stylesheet" href="css/discografia.css">
+</head>
+<body>
+    <header>
+        <div>
+           <nav>
+            
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="photocards.html">PHOTOCARDS</a></li>
+                <li><img src="./assets/IMAGENES/bts-logo.png" alt="bts-logo"></li>
+                <li><a href="discografia.html">DISCOGRAFIA</a></li>
+                <li><a href="army.html">ARMY</a></li>
+            </ul>
+           </nav>
+        </div>
+    </header>
+
+    
+<main>
+        <div class="hero-section">
+            <img src="./assets/IMAGENES/IMAGENES-DISC/hero-section.jpg" alt="">
+        </div>
+          <div class="DISCOGRAFIA">
+            <h1>DISCOGRAFÍA</h1>
+        </div>
+<div class="player-container">
+  <div class="main-video">
+    <iframe id="mainVideo" 
+      src="https://www.youtube.com/embed/rBG5L7UsUxA?autoplay=1&rel=0" 
+      allow="autoplay; encrypted-media" 
+      allowfullscreen>
+    </iframe>
+  </div>
+<section class="playlist">
+     <div class="playlist">
+    <h2>🎵 Playlist BTS</h2>
+
+    <div class="video-item active" data-video="https://www.youtube.com/embed/rBG5L7UsUxA?autoplay=1&rel=0">
+      <img src="https://img.youtube.com/vi/rBG5L7UsUxA/hqdefault.jpg" alt="No More Dream">
+      <div class="video-info">
+        <h3>No More Dream</h3>
+        <p>BTS (2013)</p>
+      </div>
+    </div>
+
+    <div class="video-item" data-video="https://www.youtube.com/embed/bagj78IQ3l0?autoplay=1&rel=0">
+      <img src="https://img.youtube.com/vi/bagj78IQ3l0/hqdefault.jpg" alt="Danger">
+      <div class="video-info">
+        <h3>Danger</h3>
+        <p>BTS (2014)</p>
+      </div>
+    </div>
+
+    <div class="video-item" data-video="https://www.youtube.com/embed/GZjt_sA2eso?autoplay=1&rel=0">
+      <img src="https://img.youtube.com/vi/GZjt_sA2eso/hqdefault.jpg" alt="Save Me">
+      <div class="video-info">
+        <h3>Save Me</h3>
+        <p>BTS (2016)</p>
+      </div>
+    </div>
+
+    <div class="video-item" data-video="https://www.youtube.com/embed/kTlv5_Bs8aw?autoplay=1&rel=0">
+      <img src="https://img.youtube.com/vi/kTlv5_Bs8aw/hqdefault.jpg" alt="Mic Drop">
+      <div class="video-info">
+        <h3>Mic Drop</h3>
+        <p>BTS (2017)</p>
+      </div>
+    </div>
+
+    <div class="video-item" data-video="https://www.youtube.com/embed/WMweEpGlu_U?autoplay=1&rel=0">
+      <img src="https://img.youtube.com/vi/WMweEpGlu_U/hqdefault.jpg" alt="Butter">
+      <div class="video-info">
+        <h3>Butter</h3>
+        <p>BTS (2021)</p>
+      </div>
+    </div>
+
+    <div class="video-item" data-video="https://www.youtube.com/embed/MBdVXkSdhwU?autoplay=1&rel=0">
+      <img src="https://img.youtube.com/vi/MBdVXkSdhwU/hqdefault.jpg" alt="DNA">
+      <div class="video-info">
+        <h3>DNA</h3>
+        <p>BTS (2017)</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const mainVideo = document.getElementById('mainVideo');
+  const items = document.querySelectorAll('.video-item');
+
+  items.forEach(item => {
+    item.addEventListener('click', () => {
+      items.forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      const newSrc = item.getAttribute('data-video');
+      mainVideo.src = newSrc;
+    });
+  });
+</script>
+
+</section>
+ 
+    </main>
+    <footer>
+        <ul>
+            <li>
+                   <a class="big-hit-x"  href=https://x.com/bighit_music><img src="assets/IMAGENES/footer/x.webp" alt=""></a>
+            </li>
+            <li>
+                   <a class="big-hit-youtube"  href=https://www.youtube.com/user/ibighit> <img src="assets/IMAGENES/footer/youtube.png" alt=""></a>
+            </li>
+            <li>
+                   <a class="big-hit-weverse"  href=https://weverse.io/bts/live?hl> <img src="assets/IMAGENES/footer/weverse.png" alt=""></a>
+            </li>
+            <li>
+                <p>Copyright © 2025 Big Hit Music / HYBE. All Rights Reserved</p>
+            </li>
+        </ul>
+    </footer>
+    
+
+</body>
+</html>

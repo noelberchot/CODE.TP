@@ -1,0 +1,185 @@
+*{
+padding: 0%;
+margin: 0%;
+background-color: black;
+}
+
+
+header{
+    background-color: black;
+    padding: 15PX 0;
+    position: sticky;
+    top: 0;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav img{
+    width: 70px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    margin: 0 16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main{
+    background-color: black;
+}
+div.hero-section img{
+    width: 99vw;
+}
+
+div.DISCOGRAFIA h1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 1000;
+}
+
+
+
+.player-container {
+    display: flex;
+margin:50px 50px 200px 200px;
+    width: 90%;
+    max-width: 1100px;
+    background-color: #1a1a1d;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(255, 185, 110, 0.25);
+  }
+
+  .main-video {
+    flex: 2;
+    background-color: black;
+    position:static;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .playlist {
+    flex: 1;
+    background-color: #121214;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+
+  .playlist h2 {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ff6d1e;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+  }
+
+  .video-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .video-item:hover {
+    background-color: #27272a;
+  }
+
+  .video-item img {
+    width: 90px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+
+  .video-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video-info h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+  }
+
+  .video-info p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 2px 0 0;
+    color: #aaa;
+  }
+
+  .active {
+    background-color: #db540caa;
+  }
+
+
+  .playlist::-webkit-scrollbar {
+    width: 6px;
+  }
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #db540c;
+    border-radius: 3px;
+  }
+
+  footer{
+    background-color: #1e1e1e;
+    padding: 15PX 0;
+ }
+
+ footer ul{
+  display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+ }
+
+ footer ul li{
+    list-style: none;
+  
+
+ }
+
+ footer ul li img{
+    width: 30px;
+ }
+
+ footer ul li p {
+     color: whitesmoke;
+    font-family: "Archivo Black", sans-serif;
+ }
+ 

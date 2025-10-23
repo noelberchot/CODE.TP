@@ -1,0 +1,212 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+
+header{
+    background-color: black;
+    padding: 15PX 0;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav img{
+    width: 70px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    margin: 0 16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main{
+    background-color: black;
+}
+div.hero-section img{
+    width: 99vw;
+}
+
+
+div.BTS h1{
+    padding-top: 80px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 1000;
+}
+
+
+section {
+    padding: 8px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section div img{
+    padding-left: 30px;
+}
+
+section div p{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: aliceblue;
+    font-family: "Rubik", sans-serif;;
+    text-align: left;
+    font-weight: 1000;
+}
+
+div.miembros h1{
+    color: orange;
+    font-family: "Archivo Black", sans-serif;
+    padding: 150px 50px 100px 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+article{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card{
+    background-color: #272626;
+    width: 30vw;
+    border-radius: 20px;
+
+}
+
+.card img{
+width: 30vw;
+border-radius: 20px 20px 0px 0px;
+}
+
+.card h1{
+    color: whitesmoke;
+    font-family: "Archivo Black", sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
+
+.card p{
+    color: whitesmoke;
+    font-family: "Archivo Black", sans-serif;
+    padding: 15PX;
+    margin: 15PX;
+    justify-content: center;
+    font-size: 1vw;
+    display: flex;
+    justify-content: left;
+    font-size: 1vw;
+    flex-direction: column;
+    align-items: baseline;
+ }
+
+.card button{
+    margin: 10px 15px;
+    background-color: rgb(251, 165, 6);
+    border-color:#333;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.card button a{
+    color: aliceblue;
+    padding: 10px;
+}
+
+div.big-hit h1{
+    color: orange;
+    font-family: "Archivo Black", sans-serif;
+    padding: 200px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+section.big-hit {
+    padding: 15px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+div.logo-big-hit img{
+    padding: 30px;
+    width: 25vw;
+}
+
+div.logo-big-hit p{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: aliceblue;
+    font-family: "Rubik", sans-serif;;
+    text-align: left;
+    font-weight: 1000;
+}
+
+section.big-ubication div.big-ubication{
+padding: 50px 50px 50px 50px;
+}
+
+footer{
+    background-color: #1e1e1e;
+    padding: 15PX 0;
+ }
+
+ footer ul{
+  display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+ }
+
+ footer ul li{
+    list-style: none;
+  
+
+ }
+
+ footer ul li img{
+    width: 30px;
+ }
+
+ footer ul li p {
+     color: whitesmoke;
+    font-family: "Archivo Black", sans-serif;
+ }
+ 

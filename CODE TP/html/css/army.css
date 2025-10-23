@@ -1,0 +1,120 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+
+header{
+    background-color: black;
+    padding: 15PX 0;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav img{
+    width: 70px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    margin: 0 16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main{
+    background-color: black;
+}
+div.hero-section img{
+    width: 99vw;
+}
+
+
+div.FANDOM h1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 1000;
+}
+
+section {
+    margin: 0px 0px 0px 550px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(199, 75, 3);
+    width: 20vw;
+    border-radius: 10px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section h2{
+    font-family: "Archivo Black", sans-serif;
+    color: aliceblue;
+    margin-bottom:10px;
+    font-weight: 1000;
+}
+
+section form{
+    font-family: "Archivo Black", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: aliceblue;
+    font-weight: 300;
+   
+}
+
+footer{
+    background-color: #1e1e1e;
+    padding: 15PX 0;
+    padding-top: 10px;
+ }
+
+ footer ul{
+  display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+ }
+
+ footer ul li{
+    list-style: none;
+  
+
+ }
+
+ footer ul li img{
+    width: 30px;
+ }
+
+ footer ul li p {
+     color: whitesmoke;
+    font-family: "Archivo Black", sans-serif;
+ }
